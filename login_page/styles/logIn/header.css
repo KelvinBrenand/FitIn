@@ -1,0 +1,145 @@
+.header{
+  height: 65px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+@media (max-width: 1000px) {
+  .subsection1 {
+    display: none !important;
+  }
+}
+
+.left-section{
+  align-items: center;
+  display: flex;
+  padding-left: 120px;
+  padding-right: 100px;
+}
+
+.right-section{
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 1fr 300px;
+}
+
+.subsection1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.subsection2{
+  align-items:center;
+  display: flex;
+  margin-left: -40px;
+  margin-right: 50px;
+}
+
+.fitin-logo{
+  width: 100px;
+}
+
+.discover-icon{
+  width: 23px;
+  padding-left: 13px;
+  filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+}
+
+.people-icon{
+  width: 25px;
+  padding-left: 7px;
+  filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+}
+
+.learning-icon{
+  width: 25px;
+  padding-left: 12px;
+  filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+}
+
+.events-icon{
+  width: 26px;
+  padding-left: 6px;
+  filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+}
+
+.discover-div{
+  padding-top: 2px;
+}
+
+.events-div{
+  padding-bottom: 2px;
+}
+
+.fitin-logo:hover{
+  cursor: pointer;
+}
+
+.discover-div:hover,
+.people-div:hover,
+.learning-div:hover,
+.events-div:hover{
+  filter: brightness(0) saturate(100%);
+  color: black;
+  cursor: pointer;
+}
+
+.vline{
+  border-left: 1px solid rgb(145, 145, 145);
+  height: 40px;
+  width: 20px;
+}
+
+.join-now-button{
+  margin-right: 5px;
+  width: 100px;
+  height: 50px;
+  border-radius: 35px;
+  font-family: PT Sans, Arial;
+  font-size: 16px;
+  font-weight:600;
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  color: rgb(88, 88, 88);
+}
+
+.sign-in-button{
+  width: 100px;
+  height: 50px;
+  font-family: PT Sans, Arial;
+  font-size: 16px;
+  font-weight:600;
+  background-color: rgba(255, 0, 0, 0);
+  border-width: 1px;
+  border-color: rgb(194,145,10);
+  border-style: solid;
+  border-radius: 35px;
+  color: rgb(194,145,10);
+}
+
+.join-now-button:hover{
+  background-color: rgb(245,245,245);
+  cursor: pointer;
+}
+
+.join-now-button:active{
+  background-color: rgb(235,235,235);
+}
+
+.sign-in-button:hover{
+  background-color: rgb(252, 249,237);
+  cursor: pointer;
+}
+
+.sign-in-button:active{
+  background-color: rgb(252, 246, 225);
+}
