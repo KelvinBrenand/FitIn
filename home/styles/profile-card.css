@@ -44,6 +44,7 @@
 .bottom-profile-card{
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .bottom-texts{
@@ -52,12 +53,17 @@
   white-space: nowrap;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   font-family: PT Sans, Arial;
   font-size: 12px;
   font-weight: bold;
   color: #838383;
+}
+
+.bottom-texts:hover{
+  background-color: #ebebeb;
 }
 
 .connections{
@@ -103,4 +109,14 @@
   padding-top: 50px;
   padding-left: 60px;
   font-weight: bold;
+}
+
+.profile-pic:hover{
+  cursor: pointer;
+}
+
+.profile-name:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #c99d24;
 }
