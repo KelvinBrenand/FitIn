@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Sign Up</title>
+    <link rel="icon" type="image/x-icon" href="login_page/header-icons/favicon.ico">
+    <link rel="stylesheet" href="signup/Styles/signup.css">
+
+    <script>
+     function pwdToggle() {
+      var x = document.getElementById("myInput");
+      var y = document.getElementById("show-hide-button");
+      if (x.type === "password") {
+        x.type = "text";
+        y.innerHTML = "Hide";
+      } else {
+        x.type = "password";
+        y.innerHTML = "Show";
+        }
+      }
+    </script>
+
+  </head>
+  <body class="corpo">
+    <div class="header">
+      <div class="left-section">
+        <a href="login_page.html">
+          <img class="fitin-logo" src="signup/Images/FitIn_logo.png">
+        </a>
+      </div>
+    </div>
+    
+    <div class="texto">
+      Make the most of your fitness life
+    </div>
+
+    <section class="center">
+      <div class="caixa">
+        <div class="email-password">E-mail or Phone number</div>
+        <input class="email-password-box" type="text">
+        <div class="email-password">
+          Password
+          <button class="show-hide-button" onclick="pwdToggle()" id="show-hide-button">Show</button>
+        </div>
+        <input class="email-password-box" type="password" id="myInput">
+        <div class="tos">By clicking Agree & Join, you agree to the FitIn 
+          <a href="#">User Agreement</a>, 
+          <a href="#">Privacy Policy</a> and 
+          <a href="#">Cookie Policy</a>
+        </div>
+        <a href="home.html">
+          <button class="botao" type="submit">Agree & Join</button>
+        </a> 
+      </div>
+    </section>
+  </body>
+</html>
