@@ -1,0 +1,134 @@
+.corpo {
+  background-color: rgb(243, 242, 238); 
+}
+
+.header {
+  height: 50px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+  
+.fitin-logo {
+  height: 40px;
+  margin-left: 100px;
+}
+
+.texto {
+  text-align: center; 
+  font-size: 30px; 
+  font-family: PT Sans, arial;
+  padding: 24px 16px;
+  color: rgb(0, 0, 0);
+}
+
+.center{
+  display: flex;
+  justify-content: center; 
+
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color:white;
+  border-radius: 8px;
+  width: 380px;
+  height: 280px;
+  padding: 20px 20px 50px 20px;
+}
+
+.email-password {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: PT Sans, Arial;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 9px;
+  padding-bottom: 7px;
+}
+
+.show-hide-button {
+  background: none;
+  border: none;
+  font-family: PT Sans, Arial;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(130,95,0);
+  position: absolute;
+  top: 153px;
+  right: 25px;
+}
+
+.show-hide-button:hover {
+  cursor: pointer;
+}
+
+.tos {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: PT Sans, Arial;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.email-password-box {
+  margin: 5px 0 16px 0;
+  font-family: PT Sans, Arial;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid rgba(0,0,0,0.6);
+}
+
+.tos {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.botao {
+  width: 350px;
+  border-radius: 30px; 
+  border: none;
+  margin: 20px;
+  padding: 14px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .corpo {
+    background-color: white; 
+    transition: 0.2s;
+  }
+
+  .caixa {
+    width: 600px;
+    padding: 0;
+    margin: 0 40px;
+  }
+
+  .email-password-box {
+    min-width: 450px;
+    max-width: 600px;
+  }
+
+  .botao {
+    margin: 1px;
+    min-width: 100%;
+  }
+
+  .show-hide-button {
+    top: 133px;
+    right: 0;
+  }
+}
