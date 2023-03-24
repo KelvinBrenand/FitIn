@@ -99,10 +99,18 @@
   border: none;
   margin: 20px;
   padding: 14px;
-  background-color: rgb(10, 102, 194);
+  background-color: rgb(194,145,10);
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+.botao:hover{
+  background-color: rgb(130,95,0);
+}
+
+.botao:active{
+  color: rgb(204,190,153);
 }
 
 @media (max-width: 900px) {
@@ -131,4 +139,8 @@
     top: 133px;
     right: 0;
   }
+}
+
+.legal-links{
+  color: #c99d24;
 }
