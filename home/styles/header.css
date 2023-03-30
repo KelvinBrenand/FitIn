@@ -168,3 +168,26 @@
   top: 45px;
   left:-20px;
 }
+
+@media(max-width: 800px) {
+  .header {
+    min-width: 250px;
+    max-width: 600px;
+  }
+
+  .left-section {
+    margin: 0 8% 0 2%;
+  }
+  
+  .right-section {
+    min-width: 180px;
+    margin: 0 10px 0 0px;
+    flex: 1;
+  }
+}
+
+@media(max-width: 500px) {
+  .my-network-icon, .messaging-icon,.notifications-icon {
+    padding-left: 8px;
+  }
+}
