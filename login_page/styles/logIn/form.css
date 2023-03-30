@@ -104,3 +104,39 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
 }
+
+@media (max-width: 800px){
+    .intro-text{
+        padding-top: 60px;
+        padding-left: 60px;
+        font-size: 30px;
+    }
+
+    .sign-in-area{
+        padding: 10px 10px 0;
+        align-items: center;
+    }
+
+    .bottom {
+        grid-template-columns: 1fr 1fr;
+        min-width: 280px;
+        max-width: 500px;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .input-box {
+        min-width: 150px;
+        max-width: 340px;
+    }
+
+    .sign-in-button2 {
+        min-width: 150px;
+        max-width: 340px;
+        margin-bottom: 15px;
+    }
+}
