@@ -13,14 +13,25 @@ p{
   color: rgb(102,102,102);
 }
 
+@media (max-width: 800px){
+  body{
+    padding: 50px 0 0;
+    min-width: 300px;
+    max-width: 600px;
+  }
 
-@media (max-width: 1280px){
+  p {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 1151px) and (max-width: 1280px){
     body{
       padding-right: 250px;
     }
 }
 
-@media (max-width: 1150px){
+@media (min-width: 801px) and (max-width: 1150px){
   body{
     padding: auto;
     min-width: 600px;
