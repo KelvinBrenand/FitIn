@@ -143,3 +143,33 @@
 .sign-in-button:active{
   background-color: rgb(252, 246, 225);
 }
+
+@media(max-width: 800px) {
+  .fitin-logo {
+    min-width: 50px;
+    max-width: 100px;
+  }
+  .join-now-button {
+    min-width: 50px;
+    max-width: 80px;
+  }
+
+  .sign-in-button {
+    min-width: 50px;
+    max-width: 80px;
+  }
+
+  .left-section{
+    padding: 0 50px 0 30px;
+  }
+
+  .right-section{
+    width: 200px;
+    grid-template-columns: 1fr 0;
+    padding: 0 0 0 50px;
+  }
+
+  .subsection2 {
+    margin-right: 0;
+  }
+}
