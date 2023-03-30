@@ -97,6 +97,7 @@
   width: 350px;
   border-radius: 30px; 
   border: none;
+  position: absolute;
   margin: 20px;
   padding: 14px;
   background-color: rgb(194,145,10);
@@ -119,20 +120,26 @@
     transition: 0.2s;
   }
 
+  .fitin-logo {
+    margin-left: 50px;
+  }
+  
   .caixa {
-    width: 600px;
+    min-width: 270px;
+    max-width: 600px;
     padding: 0;
     margin: 0 40px;
   }
 
   .email-password-box {
-    min-width: 450px;
+    min-width: 250px;
     max-width: 600px;
   }
 
   .botao {
-    margin: 1px;
-    min-width: 100%;
+    margin: 10px 1px;
+    min-width: 70%;
+    max-width: 100%;
   }
 
   .show-hide-button {
