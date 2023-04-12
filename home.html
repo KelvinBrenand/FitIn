@@ -40,7 +40,7 @@
         <div class="notifications"> <img class="notifications-icon" src="home/header-icons/nav-notifications.svg" alt="">
           <p>Notifications</p>
         </div>
-        <div class="me"> <img class="me-icon" src="home/profile-images/eu.jpg" alt="">
+        <div class="me"> <img class="me-icon" id="mainUser2" src="" alt="">
           <div>Me &#9660;</div>
         </div>
       </div>
@@ -49,11 +49,10 @@
       <div class="profile-card">
         <div class="top-profile-card">
           <div><img class="profile-background" src="home/profile-images/profile-background.png" alt=""></div>
-          <div><img class="profile-pic" src="home/profile-images/eu.jpg" alt=""></div>
-          <div class="profile-name">Kelvin Brenand</div>
+          <div><img class="profile-pic" id="mainUser0" src="" alt=""></div>
+          <div class="profile-name" id="name0"></div>
           <div class="profile-card-description">
-            <div class="description-lines">Student and Researcher at</div>
-            <div class="description-lines" >Universidade Federal da Paraíba</div>
+            <div class="description-lines" id="description0"></div>
           </div>
         </div>
         <div class="bottom-profile-card">
@@ -72,7 +71,7 @@
     <div class="feed">
       <div class="post-creator">
         <div class="post-top-section">
-          <img class="post-me-icon" src="home/profile-images/eu.jpg" alt="">
+          <img class="post-me-icon" id="mainUser1" src="" alt="">
           <div class="post-box-div">
             <input class="post-box" type="text" placeholder="Start a post">
           </div>
@@ -101,17 +100,17 @@
       </div>
       <div class="post">
         <div class="recomendation-option" id="post1">
-          <img class="recom-pic" src="home/profile-images/thomas.jpg" alt="">
+          <img class="recom-pic"  id="pic1" src="" alt="">
           <div class="recommendation-option-texts">
-            <div class="name">Thomás Augusto</div>
-            <div class="description" id="description-profile-post">Software Engineer | Java | Spring Framework</div>
-            <div class="description" id="description-profile-post">1d &#183; &#127758;</div>
+            <div class="name" id="name1"></div>
+            <div class="description-post" id="description1"></div>
+            <div class="description-post">1d &#183; &#127758;</div>
           </div>
         </div>
-        <div class="post-title">Dragon ball Z é um desenho raiz que me estimulou a fazer atividades físicas e buscar ser mais forte. Recomendo!</div>
+        <div class="post-title" id="post-title1"></div>
         <img class="ellipses" src="home/page-icons/ellipses.svg" alt="">
         
-        <img class="post-image" src="home/post-images/dbz.jpg" alt="">
+        <img class="post-image" id="post-image1" src="" alt="">
         <div class="post-stats">
           <div class="description"><span class="likes-count">81,493 likes</span></div>
           <div class="description"><span class="comments-count">1,062 comments</span> &#183; <span class="reposts-count">161 reposts</span></div>
@@ -143,16 +142,17 @@
       
       <div class="post">
         <div class="recomendation-option" id="post1">
-          <img class="recom-pic" src="home/profile-images/ewerton.jpg" alt="">
+          <img class="recom-pic" id="pic2" src="" alt="">
           <div class="recommendation-option-texts">
-            <div class="name">Ewerton Salvador</div>
-            <div class="description" id="description-profile-post">Professor at UFPB</div>
-            <div class="description" id="description-profile-post">1d &#183; &#127758;</div>
+            <div class="name" id="name2"></div>
+            <div class="description-post" id="description2"></div>
+            <div class="description">1d &#183; &#127758;</div>
           </div>
         </div>
-        <div class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor, purus quis interdum porta, nibh lacus ullamcorper nunc, a sodales eros dui ac odio. Aenean eget enim est. Nullam massa dui, efficitur at diam venenatis, maximus euismod nunc. Curabitur condimentum blandit nisi quis ullamcorper. Pellentesque tincidunt, justo nec euismod auctor.</div>
+        <div class="post-title" id="post-title2"></div>
         <img class="ellipses" src="home/page-icons/ellipses.svg" alt="">
 
+        <img class="post-image" id="post-image2" src="" alt="">
         <div class="post-stats">
           <div class="description"><span class="likes-count">1,493 likes</span></div>
           <div class="description"><span class="comments-count">162 comments</span> &#183; <span class="reposts-count">16 reposts</span></div>
@@ -184,17 +184,17 @@
 
       <div class="post">
         <div class="recomendation-option" id="post1">
-          <img class="recom-pic" src="home/profile-images/yuska-chan.jpg" alt="">
+          <img class="recom-pic" id="pic3" src="" alt="">
           <div class="recommendation-option-texts">
-            <div class="name">Yuska Aguiar</div>
-            <div class="description" id="description-profile-post">Professor Pesquisador na Universidade Federal da Paraíba</div>
-            <div class="description" id="description-profile-post">1d &#183; &#127758;</div>
+            <div class="name" id="name3"></div>
+            <div class="description-post" id="description3"></div>
+            <div class="description">1d &#183; &#127758;</div>
           </div>
         </div>
-        <div class="post-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin interdum sagittis finibus. Curabitur bibendum libero eu condimentum dignissim. Aenean ac blandit erat. Aliquam suscipit sem.</div>
+        <div class="post-title" id="post-title3"></div>
         <img class="ellipses" src="home/page-icons/ellipses.svg" alt="">
         
-        <img class="post-image" src="home/post-images/corrida.jpg" alt="">
+        <img class="post-image" id="post-image3" src="" alt="">
         <div class="post-stats">
           <div class="description"><span class="likes-count">893 likes</span></div>
           <div class="description"><span class="comments-count">1,026 comments</span> &#183; <span class="reposts-count">611 reposts</span></div>
@@ -230,33 +230,78 @@
       <div class="recommendations-card">
         <div class="top-recommendations-text">Add to your feed <img class="feed-icon" src="home/page-icons/feed-icon.svg" alt=""></div>
         <div class="recomendation-option">
-          <img  class="recom-pic" src="home/profile-images/ufpb.jpg" alt="">
+          <img  class="recom-pic" id="pic4" src="" alt="">
           <div class="recommendation-option-texts">
-            <div class="name">Universidade Federal da Paraíba</div>
-            <div class="description">Higher Education</div>
+            <div class="name" id="name4"></div>
+            <div class="description" id="description4"></div>
             <button class="follow-button"><div class="plus-icon-div"><img class="plus-icon" src="home/page-icons/plus-icon.svg" alt=""></div> Follow</button>
           </div>
         </div>
 
         <div class="recomendation-option">
-          <img class="recom-pic" src="home/profile-images/raoni.jpg" alt="">
+          <img class="recom-pic" id="pic5" src="" alt="">
           <div class="recommendation-option-texts">
-            <div class="name">Raoni Kulesza</div>
-            <div class="description">Professor at UFPB</div>
+            <div class="name" id="name5"></div>
+            <div class="description" id="description5"></div>
             <button class="follow-button"><div class="plus-icon-div"><img class="plus-icon" src="home/page-icons/plus-icon.svg" alt=""></div> Follow</button>
           </div>
         </div>
 
         <div class="recomendation-option">
-          <img class="recom-pic" src="home/profile-images/camila.jpg" alt="">
+          <img class="recom-pic" id="pic6" src="" alt="">
           <div class="recommendation-option-texts">
-            <div class="name">Camila Gehrke</div>
-            <div class="description">Researcher and Adjunct professor at UFPB</div>
+            <div class="name" id="name6"></div>
+            <div class="description" id="description6"></div>
             <button class="follow-button"><div class="plus-icon-div"><img class="plus-icon" src="home/page-icons/plus-icon.svg" alt=""></div> Follow</button>
           </div>
         </div>
         <button class="bottom-recommendations-text"> View all recommendations<div class="plus-icon-div"><img class="right-arrow" src="home/page-icons/right-icon.svg" alt=""></div></button>
       </div>
     </div>
+    <script>
+      async function getMainUser(file) {
+        let x = await fetch(file);
+        let y = await x.text();
+        const obj = JSON.parse(y);
+        document.getElementById("name0").innerText=obj.fullName;
+        document.getElementById("description0").innerText=obj.title;
+        document.getElementById("mainUser0").src=obj.imageUrl;
+        document.getElementById("mainUser1").src=obj.imageUrl;
+        document.getElementById("mainUser2").src=obj.imageUrl;
+      }
+
+      async function getData(file, id) {
+        let x = await fetch(file);
+        let y = await x.text();
+        const obj = JSON.parse(y);
+        document.getElementById("name"+id).innerText=obj.fullName;
+        document.getElementById("description"+id).innerText=obj.title;
+        document.getElementById("pic"+id).src=obj.imageUrl;
+      }
+
+      async function getPostTitle(file, id,postImageProb) {
+        let x = await fetch(file);
+        let y = await x.text();
+        const obj = JSON.parse(y);
+        const quote = innerText=obj.quote.replace('@', '');
+        document.getElementById("post-title"+id).innerText=quote;
+        if (postImageProb>0.3) {
+          document.getElementById("post-image"+id).src=`${"https://picsum.photos"}/${600}/${800}?t=${Date.now()}`;
+        }
+      }
+      
+      const randomNumbers = Array.from({length: 6}, () => Math.floor(Math.random()*53));
+      for (let i = 0; i < randomNumbers.length; i++) {
+        const element = randomNumbers[i];
+        getData("https://thronesapi.com/api/v2/Characters/"+element, i+1);
+      }
+
+      for (let i = 1; i < 4; i++) {
+        getPostTitle("https://api.themotivate365.com/stoic-quote", i, Math.random());
+      }
+
+      getMainUser("https://thronesapi.com/api/v2/Characters/"+Math.floor(Math.random()*53));
+
+    </script>
   </body>
 </html>

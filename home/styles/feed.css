@@ -29,7 +29,9 @@
 }
 
 .post-me-icon{
+  object-fit: cover;
   width: 48px;
+  height: 48px;
   border-radius: 25px;
 }
 
@@ -122,8 +124,12 @@
   margin-top: 15px;
 }
 
-#description-profile-post{
-  padding-top: 4px;
+.description-post{
+  font-family: PT Sans, Arial;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 3px;
+  color: #666666;
 }
 
 .ellipses{

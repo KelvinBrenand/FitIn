@@ -83,6 +83,8 @@
 
 .profile-pic{
   width: 65px;
+  height: 65px;
+  object-fit: cover;
   border-radius: 35px;
   position: absolute;
   top: 20px;
