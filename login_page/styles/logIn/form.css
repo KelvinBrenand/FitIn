@@ -13,6 +13,7 @@
 .sign-in-area{
     padding-left: 120px;
     padding-top: 10px;
+    display: inline-block;
 }
 
 .email-password-text{
@@ -72,9 +73,9 @@
     cursor: pointer;
 }
 
-.sign-in-area{
-    display: inline-block;
+.password-box{
     position: relative;
+    width: 380px;
 }
 
 .show-hide-button{
@@ -85,8 +86,8 @@
     font-size: 16px;
     color: rgb(130,95,0);
     position: absolute;
-    top: 190px;
-    right: 10px;
+    top: 16px;
+    right: 0px;
 
 }
 
