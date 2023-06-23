@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding-top: 70px;
+  padding-left: 25.5%;
+  padding-right: 425px;
+}
+.home-header-text{
+  font-family: PT Sans, Arial;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(102,102,102);
+}
+
+@media (max-width: 800px){
+  body{
+    padding: 50px 0 0;
+    min-width: 300px;
+    max-width: 600px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 1151px) and (max-width: 1280px){
+    body{
+      padding-right: 250px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1150px){
+  body{
+    padding: auto;
+    min-width: 600px;
+  }
+}

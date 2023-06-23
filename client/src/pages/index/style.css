@@ -1,0 +1,342 @@
+.home--container{
+  position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.header{
+  height: 65px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+}
+  
+  @media (max-width: 1000px) {
+    .subsection1 {
+      display: none !important;
+    }
+  }
+  
+  .left-section{
+    align-items: center;
+    display: flex;
+    /* padding-left: 120px; */
+    padding-right: 100px;
+  }
+  
+  .right-section{
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 1fr 300px;
+  }
+  
+  .subsection1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+  }
+  
+  .subsection2{
+    align-items:center;
+    display: flex;
+    margin-left: -40px;
+    margin-right: 50px;
+  }
+  
+  .fitin-logo{
+    width: 100px;
+  }
+  
+  .discover-icon{
+    width: 23px;
+    padding-left: 13px;
+    filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+  }
+  
+  .people-icon{
+    width: 25px;
+    padding-left: 7px;
+    filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+  }
+  
+  .learning-icon{
+    width: 25px;
+    padding-left: 12px;
+    filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+  }
+  
+  .events-icon{
+    width: 26px;
+    padding-left: 6px;
+    filter: invert(39%) sepia(9%) saturate(0%) hue-rotate(257deg) brightness(91%) contrast(75%);
+  }
+  
+  .discover-div{
+    padding-top: 2px;
+  }
+  
+  .events-div{
+    padding-bottom: 2px;
+  }
+  
+  .fitin-logo:hover{
+    cursor: pointer;
+  }
+  
+  .discover-div:hover,
+  .people-div:hover,
+  .learning-div:hover,
+  .events-div:hover{
+    filter: brightness(0) saturate(100%);
+    color: black;
+    cursor: pointer;
+  }
+  
+  .vline{
+    border-left: 1px solid rgb(145, 145, 145);
+    height: 40px;
+    width: 20px;
+  }
+  
+  .join-now-button{
+    margin-right: 5px;
+    width: 100px;
+    height: 50px;
+    border-radius: 35px;
+    font-family: PT Sans, Arial;
+    font-size: 16px;
+    font-weight:600;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    color: rgb(88, 88, 88);
+  }
+  
+  .sign-in-button{
+    width: 100px;
+    height: 50px;
+    font-family: PT Sans, Arial;
+    font-size: 16px;
+    font-weight:600;
+    background-color: rgba(255, 0, 0, 0);
+    border-width: 1px;
+    border-color: rgb(194,145,10);
+    border-style: solid;
+    border-radius: 35px;
+    color: rgb(194,145,10);
+  }
+  
+  .join-now-button:hover{
+    background-color: rgb(245,245,245);
+    cursor: pointer;
+  }
+  
+  .join-now-button:active{
+    background-color: rgb(235,235,235);
+  }
+  
+  .sign-in-button:hover{
+    background-color: rgb(252, 249,237);
+    cursor: pointer;
+  }
+  
+  .sign-in-button:active{
+    background-color: rgb(252, 246, 225);
+  }
+  
+  @media(max-width: 800px) {
+    .fitin-logo {
+      min-width: 50px;
+      max-width: 100px;
+    }
+    .join-now-button {
+      min-width: 50px;
+      max-width: 80px;
+    }
+  
+    .sign-in-button {
+      min-width: 50px;
+      max-width: 80px;
+    }
+  
+    .left-section{
+      padding: 0 50px 0 30px;
+    }
+  
+    .right-section{
+      width: 200px;
+      grid-template-columns: 1fr 0;
+      padding: 0 0 0 50px;
+    }
+  
+    .subsection2 {
+      margin-right: 0;
+    }
+  }
+
+  
+  .intro-text{
+    padding-top: 60px;
+    padding-left: 120px;
+}
+
+.welcome-text{
+    font-family: PT Sans, Arial;
+    font-size: 55px;
+    font-weight: 100;
+    color: rgb(145,91,77);
+}
+
+.sign-in-area{
+    padding-left: 120px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.email-password-text{
+    font-family: PT Sans, Arial;
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.forgot-password-text{
+    font-family: PT Sans, Arial;
+    font-weight: 600;
+    color: rgb(194,145,10);
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.input-box{
+    height: 50px;
+    width: 380px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    font-family: PT Sans, Arial;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.sign-in-button2{
+    margin-top: 30px;
+    height: 50px;
+    width: 400px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(194,145,10);
+    font-family: PT Sans, Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sign-in-button2:hover{
+    background-color: rgb(130,95,0);
+}
+
+.sign-in-button2:active{
+    color: rgb(204,190,153);
+}
+
+.forgot-password-text:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.password-box{
+    position: relative;
+    width: 380px;
+}
+
+.show-hide-button{
+    background: none;
+    border: none;
+    font-family: PT Sans, Arial;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(130,95,0);
+    position: absolute;
+    top: 16px;
+    right: 0px;
+
+}
+
+.show-hide-button:hover{
+    cursor: pointer;
+}
+
+.main-image{
+    width: 599px;
+    padding-left: 200px;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+@media (max-width: 800px){
+    .intro-text{
+        padding-top: 60px;
+        padding-left: 60px;
+        font-size: 30px;
+    }
+
+    .sign-in-area{
+        padding: 10px 10px 0;
+        align-items: center;
+    }
+
+    .bottom {
+        grid-template-columns: 1fr 1fr;
+        min-width: 280px;
+        max-width: 500px;
+        justify-content: center;
+        padding-left: 10px;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .input-box {
+        min-width: 150px;
+        max-width: 340px;
+    }
+
+    .sign-in-button2 {
+        min-width: 150px;
+        max-width: 340px;
+        margin-bottom: 15px;
+    }
+}
+
+p{
+    font-family: PT Sans, Arial;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(102,102,102);
+  }
+
+.SignInDiv{
+  height: 50px;
+  width: 400px;
+  font-size: 18px;
+}
